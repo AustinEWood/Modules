@@ -8,7 +8,9 @@ https://makersuite.google.com/app/apikey
 Documentation for the API can be found here:
 https://ai.google.dev/aistudio
 
-Once you have the API key you need to add it to your environment variables with the name Google_API. The key is called by the variable $APIKey in the funtion Build-APIInteractions located in the funcstion.ps1 file. 
+Once you have the API key you need to add it to your environment variables with the name Google_API. The key is called by the variable $APIKey in the funtion Build-APIInteractions located in the funcstion.ps1 file.
+
+You can then open your console and run either script Conversation.ps1 or MemoryConversation.ps1.
 
 The Conversation.ps1 script will allow you to start a conversation. But there will be no memory with this conversation. MemoryConversation.ps1 will let you have a conversation the keeps track of the conversation. As of now, the whole conversation is sent each time. This is not ideal, but it is a start.
 
