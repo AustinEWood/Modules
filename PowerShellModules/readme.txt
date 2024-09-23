@@ -1,0 +1,1 @@
+This project is focused around building modules for PowerShell. 
